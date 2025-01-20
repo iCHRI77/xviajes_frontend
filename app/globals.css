@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main{
+    background: rgb(81,112,254);
+    background: linear-gradient(90deg, #5170fe 0%, #fd66c3 100%);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    width: 310px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .date .day {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .date .weekday {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .date .time {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .info {
+    margin-left: 20px;
+  }
+  
+  .info .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .info .subtitle {
+    font-size: 14px;
+    font-style: italic;
+    margin: 5px 0 0 0;
+  }
